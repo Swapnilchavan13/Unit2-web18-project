@@ -1,0 +1,210 @@
+h4{
+    font-size: 14px;
+}
+*{
+    font-family: 
+  "Source Sans Pro", sans-serif;
+}
+#mainimg>img{
+    width: 160px;
+    margin-left: 95px;
+}
+#navbar{
+    color: white;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    display: flex;
+    gap: 20px;
+    background-color: #0087a8;
+    padding-left: 100px;
+
+}
+#secondnav{
+    color: black;
+    display: flex;
+    gap: 20px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #0087a8;
+    padding-left: 100px;
+    padding-bottom: -10px;
+    
+}
+.fa-wpforms{
+    margin-top: 16px;
+}
+
+.searching{
+    margin-left: 200px;
+    margin-top: 13px;
+}
+.line{
+    border: 1px solid white;
+}
+#information,#secmaindiv,#thirddiv{
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+    column-gap: 40px;
+    padding: 25px;
+    justify-content: center;
+    background-color: #eff6f4;
+}
+#thirddiv>div{
+    background-color: white;
+}
+#thirddiv>div>div{
+    background-color: white;
+}
+
+#secmaindiv{
+    background-color: white;
+    grid-template-rows: repeat(1, 300px);
+}
+#secmaindiv>div{
+   background-color: #eff6f4 ;
+}
+#information>div{
+    background-color: white;
+   
+}
+#information>div>div{
+    background-color: white;
+   
+}
+#information>div>img{
+    width: 100%;
+    height: 100%;
+}
+#secdiv>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 25px;  
+}
+#secdiv>div>h5{
+    margin-top: 5px;
+    margin-left: -50px;
+}
+#secdiv>div>img {
+    margin-top: -5px;
+}
+hr{
+    border-top: 1px dotted gray;
+}
+#fourdiv>div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    padding-left: 15px;
+    padding-top: 25px;
+    background-color:#eff6f4;
+}
+#fourdiv>div>img {
+    margin-top: -10px;
+}
+ul{
+    line-height: 26px;
+}
+.more{
+    margin-left: 150px;
+}
+#lastdiv{
+    display: grid;
+    grid-template-columns: repeat(4, 21%);
+    grid-template-rows: repeat(2,200px);
+    gap: 10px;
+    justify-content: center;
+    background-color: #eff6f4;
+    padding: 10px;
+}
+#lastdiv>div{
+    background-color: white;
+}
+
+#bottamnav{
+margin-top: 50px;
+display: grid;
+grid-template-columns: repeat(8, 8%);
+gap: 10px;
+justify-content: center;
+background-color: #0087a8;
+color: white;
+line-height: 8px;
+font-size: 10px;
+height: 280px;
+padding-top: 30px;
+}
+
+#lastnav{
+margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(4, 18%);
+gap: 10px;
+justify-content: center;
+line-height: 12px;
+font-size: 10px;
+height: 280px;
+padding-top: 30px;
+padding: 20px;
+}
+.hline{
+border-left: 1px solid gray;
+height: 250px;
+padding: 20px;
+padding-top: 0px;
+}
+.lastp{
+color: gray;
+}
+h3:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+h4:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+h5:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+p:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+li:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+.strech{
+width: 80%;
+margin-left: 40px;
+margin-top: 10px;
+}
+.strech+h5{
+margin-left: 40px;
+}
+.strech1+h5{
+margin-top: -50px;
+margin-left: 20px;
+font-size: 18px;
+}
+.strech2{
+width:95%;
+margin-left: 10px;
+}
+.strech2+h5{
+margin-top: -50px;
+margin-left: 20px;
+font-size: 20px;
+color: white;
+}
+.other+h5{
+margin-top: -50px;
+margin-left: 20px;
+font-size: 20px;
+color: white;
+}

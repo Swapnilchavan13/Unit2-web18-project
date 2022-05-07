@@ -1,0 +1,99 @@
+
+*{
+    font-family: Helvetica;
+    margin: 0;
+}
+#form{
+  display: flexbox;
+  width: 30%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 40px;
+  
+ 
+}
+hr{
+    margin-bottom: 40px;
+}
+p{
+    font-size: 14px;
+}
+#h{
+  margin-top: 30px;
+  text-align: center;
+}
+
+#name{
+border-radius: 5px;
+height: 25px;
+width: 43%;
+padding: 10px;
+margin-bottom: 20px;
+border-width: 1px;
+border-color: gray;
+}
+#Lname{
+border-radius: 5px;
+height: 25px;
+width: 43%;
+padding: 10px;
+margin-bottom: 20px;
+border-width: 1px;
+border-color: gray;
+margin-left: 10px;
+
+}
+.epp{
+border-radius: 5px;
+height: 25px;
+width: 94%;
+padding: 10px;
+margin-bottom: 20px;
+border-width: 1px;
+border-color: gray;
+}
+#s1{
+border-radius: 5px;
+height: 43px;
+width: 48%;
+padding: 10px;
+margin-bottom: 20px;
+border-width: 1px;
+border-color: gray;
+}
+#s2{
+border-radius: 5px;
+height: 43px;
+width: 48%;
+padding: 10px;
+margin-bottom: 20px;
+border-width: 1px;
+border-color: gray;
+margin-left: 14px;
+}
+
+#hb{
+margin-top: -10px;
+}
+.regBtn{
+margin-top: 30px;
+border-radius: 30px;
+width: 210px;
+height: 45px;
+color: white;
+background-color: white;
+margin-top: 25px;
+margin-bottom: 20px;
+text-decoration: none;
+
+}
+.beautyP{
+margin-top: 20px;
+font-size: 12px;
+width: 70%;
+margin-bottom: 20px;
+}
+button:hover{
+background-color: gray;
+cursor: pointer;
+}
